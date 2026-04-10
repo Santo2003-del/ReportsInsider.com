@@ -51,7 +51,7 @@ export function Contact() {
               <a
                 key={item.label}
                 href={item.href}
-                className="bg-[#f8fafc] rounded-xl p-5 border border-slate-100 hover:border-blue-200 hover:shadow-md hover:shadow-blue-50 transition-all duration-200 group"
+                className="bg-[#f8fafc] rounded-xl p-5 border border-slate-100 hover:border-blue-200 transition-all duration-200 group"
               >
                 <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center mb-3 group-hover:bg-blue-600 transition-colors">
                   <item.icon className="w-5 h-5 text-blue-600 group-hover:text-white transition-colors" />
@@ -107,7 +107,7 @@ export function Contact() {
               </div>
               <button
                 type="button"
-                className="w-full flex items-center justify-center px-6 py-3.5 bg-blue-600 text-white rounded-lg font-semibold text-sm hover:bg-blue-700 transition-colors shadow-md shadow-blue-600/25 group"
+                className="w-full flex items-center justify-center px-6 py-3.5 bg-blue-600 text-white rounded-lg font-semibold text-sm hover:bg-blue-700 transition-colors group"
               >
                 Send Message
                 <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />

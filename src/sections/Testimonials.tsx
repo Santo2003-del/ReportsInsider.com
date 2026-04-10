@@ -35,7 +35,7 @@ export function Testimonials() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.08, duration: 0.4 }}
               whileHover={{ y: -5 }}
-              className="bg-white rounded-xl p-7 border border-slate-100 shadow-sm hover:shadow-lg hover:shadow-blue-50 hover:border-blue-100 transition-all duration-300 relative group"
+              className="bg-white rounded-xl p-7 border border-slate-100 hover:border-blue-100 transition-all duration-300 relative group"
             >
               <Quote className="absolute top-6 right-6 h-10 w-10 text-blue-100 group-hover:text-blue-200 transition-colors" />
 
@@ -52,7 +52,7 @@ export function Testimonials() {
               </p>
 
               <div className="flex items-center mt-auto">
-                <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm shadow-md shadow-blue-600/25">
+                <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-sm">
                   {testimonial.author.charAt(0)}
                 </div>
                 <div className="ml-3">

@@ -44,7 +44,7 @@ export function Navbar() {
         className={cn(
           "w-full transition-all duration-300 border-b",
           isScrolled
-            ? "bg-white/95 backdrop-blur-xl shadow-md border-slate-100 py-3"
+            ? "bg-white/95 backdrop-blur-xl border-slate-100 py-3"
             : "bg-white/80 backdrop-blur-md border-slate-200/50 py-4"
         )}
       >
@@ -52,7 +52,7 @@ export function Navbar() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2.5 flex-shrink-0 group">
-              <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center shadow-md shadow-blue-600/25 group-hover:shadow-lg group-hover:shadow-blue-600/40 transition-shadow">
+              <div className="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-lg leading-none">R</span>
               </div>
               <span className="text-xl font-bold text-slate-900 tracking-tight">
@@ -104,7 +104,7 @@ export function Navbar() {
                             animate={{ opacity: 1, y: 0 }}
                             exit={{ opacity: 0, y: 8 }}
                             transition={{ duration: 0.15, ease: "easeOut" }}
-                            className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl shadow-xl shadow-slate-200/50 border border-slate-100 py-2 overflow-hidden"
+                            className="absolute top-full left-0 mt-1 w-64 bg-white rounded-xl border border-slate-100 py-2 overflow-hidden"
                           >
                             {link.subLinks!.map((subLink) => (
                               <Link
@@ -129,7 +129,7 @@ export function Navbar() {
             <div className="flex items-center gap-3">
               <Link
                 to="/contact"
-                className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 shadow-md shadow-blue-600/25 hover:shadow-lg hover:shadow-blue-600/30 transition-all duration-200"
+                className="hidden lg:inline-flex items-center justify-center px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-all duration-200"
               >
                 Get a Quote
               </Link>

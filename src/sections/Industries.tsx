@@ -102,7 +102,7 @@ export function Industries() {
             >
               <Link
                 to={industry.href}
-                className="block bg-white rounded-xl overflow-hidden border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-blue-100/40 hover:border-blue-200 group transition-all duration-300"
+                className="block bg-white rounded-xl overflow-hidden border border-slate-100 hover:border-blue-200 group transition-all duration-300"
               >
                 <div className="relative h-48 overflow-hidden">
                   <img

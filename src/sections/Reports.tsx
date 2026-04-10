@@ -35,7 +35,7 @@ export function Reports() {
           >
             <Link
               to="/reports"
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-semibold text-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-300 shadow-sm group"
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-slate-900 border border-slate-200 rounded-full font-semibold text-lg hover:border-blue-600 hover:text-blue-600 transition-all duration-300 group"
             >
               View All Reports
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
@@ -52,7 +52,7 @@ export function Reports() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1, duration: 0.5 }}
               whileHover={{ y: -10 }}
-              className="bg-white rounded-3xl overflow-hidden shadow-[0_10px_40px_-10px_rgba(0,0,0,0.08)] border border-slate-100 group flex flex-col h-full transition-all duration-500"
+              className="bg-white rounded-3xl overflow-hidden border border-slate-100 group flex flex-col h-full transition-all duration-500"
             >
               <div className="relative h-64 overflow-hidden">
                 <div className="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors duration-500 z-10" />
@@ -62,7 +62,7 @@ export function Reports() {
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 />
                 <div className="absolute top-6 left-6 z-20">
-                  <span className="px-4 py-1.5 bg-white/95 backdrop-blur-md text-blue-700 text-xs font-bold uppercase tracking-wider rounded-full shadow-sm">
+                  <span className="px-4 py-1.5 bg-white/95 backdrop-blur-md text-blue-700 text-xs font-bold uppercase tracking-wider rounded-full border border-slate-100">
                     {report.category}
                   </span>
                 </div>

@@ -36,7 +36,7 @@ export function Services() {
           </motion.p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {SERVICES.map((service, index) => (
             <motion.div
               key={service.title}
@@ -45,7 +45,7 @@ export function Services() {
               viewport={{ once: true }}
               transition={{ delay: index * 0.08, duration: 0.4 }}
               whileHover={{ y: -6 }}
-              className="bg-white rounded-xl p-6 border border-slate-100 shadow-sm hover:shadow-xl hover:shadow-blue-100/50 hover:border-blue-200 shiny-card transition-all duration-300 group flex flex-col h-full"
+              className="bg-white rounded-xl p-6 border border-slate-100 hover:border-blue-200 shiny-card transition-all duration-300 group flex flex-col h-full"
             >
               <div className="w-12 h-12 bg-blue-50 rounded-lg flex items-center justify-center mb-5 group-hover:bg-blue-600 transition-colors duration-300">
                 <service.icon className="h-6 w-6 text-blue-600 group-hover:text-white transition-colors duration-300" />

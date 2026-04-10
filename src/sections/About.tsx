@@ -16,7 +16,7 @@ export function About() {
             transition={{ duration: 0.6 }}
             className="relative"
           >
-            <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <div className="relative rounded-2xl overflow-hidden border border-slate-100">
               <img
                 src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
                 alt="Business team collaborating on market research"
@@ -30,7 +30,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.3, duration: 0.5 }}
-              className="absolute -bottom-6 -right-4 bg-white p-6 rounded-xl shadow-lg border border-slate-100 max-w-[200px] hidden md:block"
+              className="absolute -bottom-6 -right-4 bg-white p-6 rounded-xl border border-slate-100 max-w-[200px] hidden md:block"
             >
               <div className="text-3xl font-bold text-blue-600 mb-1">15+</div>
               <div className="text-slate-600 text-sm font-medium leading-snug">Years of actionable market intelligence</div>
@@ -79,7 +79,7 @@ export function About() {
 
             <Link
               to="/about"
-              className="inline-flex items-center px-6 py-3 bg-slate-900 text-white rounded-lg text-sm font-semibold hover:bg-blue-600 transition-colors duration-200 shadow-md group"
+              className="inline-flex items-center px-6 py-3 bg-slate-900 text-white rounded-lg text-sm font-semibold hover:bg-blue-600 transition-colors duration-200 group"
             >
               Discover Our Story
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />

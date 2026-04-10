@@ -53,10 +53,10 @@ export function Hero() {
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
                 <Link
                   to="/services"
-                  className="inline-flex items-center px-7 py-3.5 bg-blue-600 text-white rounded-lg font-semibold text-sm shadow-lg shadow-blue-600/30 hover:bg-blue-700 hover:shadow-xl hover:shadow-blue-700/30 transition-all duration-200 group"
+                  className="inline-flex items-center px-7 py-3.5 bg-blue-600 text-white rounded-lg font-semibold text-sm hover:bg-blue-700 transition-all duration-300 group"
                 >
                   Explore Reports
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-0.5 transition-transform" />
+                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.98 }}>
@@ -97,7 +97,7 @@ export function Hero() {
           >
             <div className="relative">
               <div className="animate-float">
-                <div className="bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 p-8 shadow-2xl">
+                <div className="bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10 p-8">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-10 h-10 rounded-lg bg-blue-500/20 flex items-center justify-center">
                       <Play className="w-5 h-5 text-blue-400 fill-current" />
@@ -108,7 +108,7 @@ export function Hero() {
                     </div>
                   </div>
                   <div className="space-y-3">
-                    {["Expert Meetings", "B2B & B2C Surveys", "Custom Research", "Long-Term Consulting"].map((item, i) => (
+                    {["Expert Meetings", "Expert Calls", "B2B & B2C Surveys", "Field Visits"].map((item, i) => (
                       <div key={item} className="flex items-center gap-3">
                         <div className={cn_simple(i)}>
                           <div className="w-2 h-2 rounded-full bg-current" />
@@ -127,8 +127,7 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Bottom gradient fade to white */}
-      <div className="absolute bottom-0 left-0 right-0 h-24 bg-gradient-to-t from-white to-transparent z-20" />
+
     </section>
   );
 }

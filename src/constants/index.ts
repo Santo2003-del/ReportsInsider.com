@@ -45,24 +45,34 @@ export const NAV_LINKS = [
 
 export const SERVICES = [
   {
-    title: "Consulting Service",
-    description: "Our consulting services is committed to provide actionable insights functional statistics and helping clients prioritize reward opportunities. Whether you are an experienced player or want to explore investment opportunities...",
-    icon: Target,
+    title: "Expert Meetings",
+    description: "Expert Meetings is a premium service that facilitates in-depth, face-to-face or virtual interactions between clients and industry experts. These meetings are designed to provide comprehensive insights, strategic guidance, and hands-on perspectives on specific markets, technologies, or business challenges.",
+    icon: Users,
   },
   {
-    title: "Custom Research",
-    description: "Our researches primarily focus on understanding the choices of the customers and identifying their basic needs. At Reports Insider, we provide customized research solutions to deal with the particular requirements of our clients...",
-    icon: PieChart,
+    title: "Expert Calls",
+    description: "Expert Calls connects businesses, investors, and researchers with subject matter experts across various industries. These consultations allow clients to gain firsthand insights, market intelligence, and strategic advice directly from professionals with deep knowledge and real-world experience.",
+    icon: PhoneCall,
   },
   {
-    title: "Syndicated Market Research",
-    description: "Syndicate research conducted by Reports Insider offers ready answers and provides effective due diligence on business intelligence and research needs. Our syndicated research services give fantastic insights...",
-    icon: BarChart3,
+    title: "B2B & B2C Surveys",
+    description: "B2B & B2C Surveys are research services designed to collect insights directly from target audiences. These surveys help companies understand customer preferences, buying behavior, market trends, and brand perception through decision-makers and everyday consumers.",
+    icon: ClipboardList,
   },
   {
-    title: "Emerging Technologies",
-    description: "We are a community of solvers combining human ingenuity, experience and technology innovation to deliver sustained outcomes and build trust. At Reports Insider we believe in independent studies for client specific requirements...",
-    icon: Zap,
+    title: "Long-Term Consulting",
+    description: "Long-Term Consulting provides ongoing access to industry experts over an extended period. This service supports deeper engagement, allowing consultants to work closely with clients on complex projects, strategic planning, and continuous market monitoring.",
+    icon: Handshake,
+  },
+  {
+    title: "Field Visits",
+    description: "Field Visits involve on-site visits to operational facilities to gather real-world insights. These visits are crucial for validating data, understanding ground-level realities, and gaining practical context that cannot be captured through remote consultations.",
+    icon: Map,
+  },
+  {
+    title: "In-Person Meetings",
+    description: "In-person Meetings facilitate face-to-face interactions to enable deeper discussions and stronger relationship building. Ideal for strategic planning or complex project assessments, these meetings provide an immersive environment for nuanced insights.",
+    icon: Briefcase,
   },
 ];
 
